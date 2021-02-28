@@ -1,0 +1,1 @@
+export const formatHarga = new Intl.NumberFormat('id');
