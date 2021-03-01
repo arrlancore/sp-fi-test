@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useEffect } from 'react';
 import BannerImage from '../components/Banner';
 import Footer from '../components/Footer'
@@ -42,9 +43,9 @@ const Content = () => {
               {/*Card image*/}
               <div className="view overlay hm-white-slight">
                 <img src={room.thumbnail} className="img-fluid" alt="executive-suite" />
-                <a href={`/kamar/${key}`}>
+                <Link href="/kamar/[kamarid]" as={`/kamar/${key}`}>
                   <div className="mask waves-light" />
-                </a>
+                </Link>
               </div>
               {/*/.Card image*/}
               {/*Card content*/}
@@ -54,7 +55,7 @@ const Content = () => {
                 <hr />
                 {/*Text*/}
                 <p className="card-text">IDR {formatHarga.format(room.harga)} / malam
-                  <a href={`/kamar/${key}`}><button type="button" className="btn innbtn pull-right">Detail</button></a></p>
+                  <Link href="/kamar/[kamarid]" as={`/kamar/${key}`}><button type="button" className="btn innbtn pull-right">Detail</button></Link></p>
               </div>
               {/*/.Card content*/}
             </div>
