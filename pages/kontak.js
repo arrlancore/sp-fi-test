@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 
 
 export default function Kontak() {
-  const title = 'Konta'
+  const title = 'Kontak'
 
   return (
     <Layout metaTitle={title}>
@@ -27,7 +27,7 @@ const Content = () => {
         </div>
         <div className="row">
           <div className="col-md-8 card paddingt20">
-          <iframe id="JotFormIFrame-210582953236457" title="Kontak Form Family Status" onload="window.parent.scrollTo(0,0)" allowTransparency="true" allowFullScreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/210582953236457" frameBorder={0} style={{minWidth: '100%', height: '880px', border: 'none'}} scrolling="no"> </iframe>
+          <iframe id="JotFormIFrame-210582953236457" title="Kontak Form Family Status" onload="window.parent.scrollTo(0,0)" allowTransparency="true" allowFullScreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/210582953236457" frameBorder={0} style={{minWidth: '100%', height: '1080px', border: 'none'}} scrolling="no"> </iframe>
             {/* <strong><h2>Kirim Pesan</h2></strong>
             <form className="form-horizontal" role="form" method="post" action="kontak">
               <div className="form-input">
