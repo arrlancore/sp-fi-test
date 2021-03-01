@@ -1,0 +1,461 @@
+/* TEMPLATE STYLES */
+
+html,
+body,
+.view {
+    height: 100%;
+	font-family: Raleway;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.innbtn {
+    background: #339933;
+    color: #ffffff;
+}
+.innbtn:hover, .innbtn:focus, .innbtn:active, .innbtn.active, .open > .dropdown-toggle.innbtn {
+    background: #33CC33;
+}
+ 
+a{color:#339933}
+a:hover{color:#333333}
+.harga{
+font-size:1.125rem;
+color:#339933
+}
+.link-header-app {
+    padding: 8px 14px;
+}
+.opa90{
+background:white;
+/* Required for IE 5, 6, 7 */
+
+		
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=90);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:9;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.9;
+    
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.9;
+}
+
+h2.ontitle{
+font-size:2.5rem;
+}
+
+h2.page-title{
+font-size:2.5rem;
+font-weight: 700;	
+}
+/* Navigation*/
+
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 4;
+  -webkit-column-gap:   20px;
+  -moz-column-count:    4;
+  -moz-column-gap:      20px;
+  column-count:         4;
+  column-gap:           20px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  padding-top:20px;
+ 
+}
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+.img-circle{
+border-radius:50%;
+}
+.navbar {
+    background-color: #ffffff;
+	height: 90px;
+	z-index:2;
+	font-height:60px;
+}
+
+.testimoni{
+border:1px solid #efefef;
+}
+.top-nav-collapse {
+ background-color: #ffffff;
+}
+#navbarNav1.navbar-collapse.collapse.show{
+padding: 10px;
+background-color: #ffffff;}
+
+
+.social .fa-facebook{
+color: #339933;
+}
+.social .fa-instagram{
+color: #339933;
+}
+.social .fa-facebook:hover {
+    color: #4060A5;
+}
+
+.social .fa-instagram:hover {
+    color: brown;
+}
+.navbar-nav {
+font-weight:400;
+}
+
+.navbar.navbar-light .breadcrumb a, .navbar.navbar-light .breadcrumb a:hover, .navbar.navbar-light .nav-item a, .navbar.navbar-light {
+color:#333333}
+
+#hotel-short-desc{
+	width: 100%;
+    background-image: url('../img/hotel-short-desc.jpg');
+    background-repeat: no-repeat;
+}
+#resto-short-desc{
+	width: 100%;
+    background-image: url('../img/resto-short-desc.jpg');
+    background-repeat: no-repeat;
+}
+#main-content{
+    height: 100%;
+	background-color:#efefef;
+	background-image: url("../img/bg-1.png"), url("../img/bg-2.png");
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+	padding-top:20px;
+	padding-bottom:80px;
+}
+@media (max-width: 768px){
+#main-content{
+background-size:40%;
+}
+}
+@media (max-width: 320px){
+#main-content{
+padding-bottom:20px;
+}
+}
+#lokasi{
+padding-top:10px;
+}
+.in-center{
+justify-content: center;
+align-items: center;
+}
+.table td, .table th{
+vertical-align:middle;
+text-align:left
+}
+.fill{
+	min-height:560px;
+    height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size:1.125rem;
+}
+@media (max-width: 768px){
+.fill{
+  font-size:1rem;
+}
+h2.ontitle{font-size:2rem}
+}
+@media (min-width: 992px){
+.navbar-nav > li{
+  margin-left:10px;
+  margin-right:10px;
+}}
+@media (max-width: 992px){
+.navbar{
+  height:60px
+}
+img.logo-nav{
+width:70%
+}
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #ffffff;
+    }
+	
+}
+
+/*Header Imgae/featured*/
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-hotel {
+	background: url('../img/header-kamar-hotel.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+.header-restoran {
+	background: url('../img/header-restoran.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+.header-kontak {
+		background: url('../img/header-kontak.jpg') no-repeat center center scroll;
+
+    padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+.header-about {
+	background: #339933;
+    background: -webkit-linear-gradient(left top, rgb(51,153,51), rgb(154,208,24)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(51,153,51), rgb(154,208,24)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(51,153,51), rgb(154,208,24)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(51,153,51), rgb(154,208,24)); /* Standard syntax (must be last) */
+    
+     padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+.header-abouts {
+			background: url('../img/header-about.jpg') no-repeat center center scroll;
+
+     padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+.header-bantuan {
+	background: #339933;
+    background: -webkit-linear-gradient(left top, rgb(51,153,51), rgb(154,208,24)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(51,153,51), rgb(154,208,24)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(51,153,51), rgb(154,208,24)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(51,153,51), rgb(154,208,24)); /* Standard syntax (must be last) */
+    
+    padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+.header-reservasi {
+	background: #339933;
+    background: -webkit-linear-gradient(left top, rgb(51,153,51), rgb(154,208,24)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(51,153,51), rgb(154,208,24)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(51,153,51), rgb(154,208,24)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(51,153,51), rgb(154,208,24)); /* Standard syntax (must be last) */
+    
+    padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+.header-layanan {
+	background: url('../img/header-layanan.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+.header-gallery {
+	background: url('../img/header-gall.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+	max-height:435px;
+	max-width:100%
+}
+
+
+.header-deluxe {
+	background: url('../img/header-deluxe-b.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+	height: 435px;
+}
+.header-superior {
+	background: url('../img/header-deluxe-a.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+	height: 435px;
+}
+.header-family {
+	background: url('../img/header-family.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+	height: 435px;
+}
+.header-executive {
+	background: url('../img/header-executive.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+	height: 435px;
+}
+
+
+.img-center {
+	margin: 0 auto;
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+  
+  .img-responsive {
+    width: 60%;
+    height: auto;
+}
+}
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+
+img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.list-resto{
+padding-left:15%
+}
+/*Intro*/
+
+.view {
+    background: url("../img/home-cover.jpg")no-repeat center center fixed;
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto;
+        position: relative;
+    }
+}
+.paddingt20{
+padding-top:20px
+}
+.description {
+    padding-top: 5%;
+    padding-bottom: 3rem;
+    color: #fff
+}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+}
+
+.fa-check {
+    color: green;
+}
+
+/*Colors*/
+
+.btn-ptc {
+  background-color: #45526E !important;
+}
+
+.btn-ptc:hover {
+  background-color: #59698d !important;
+}
+
+.btn-ptc:focus {
+  background-color: #59698d !important;
+}
+
+footer.page-footer {
+    background-color: #f1f1f1;
+	color:#000000;
+	font-size:.875rem;
+}
+footer.page-footer a{
+color:#333333;
+}
+.langganan{
+font-size:1.125rem;
+color:#339933;
+font-weight:500;
+}
+.form-control:focus{
+border-color:#339933;
+}
+.form-control{
+border-top:0;
+border-right:0;
+border-left:0
+}
+.reserv{
+margin:0 auto;
+position: relative;
+}
+.foot-copyright{
+background-color: #339933;
+color:#ffffff;
+font-size:0.825rem;
+padding:20px
+}
+.bigbtn{
+height:51px
+}
+.carousel-multi-item .carousel-indicators li {
+    background-color: #999999;
+}
+.carousel-multi-item .carousel-indicators .active {
+    background-color: #339933
+}
+
