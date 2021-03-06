@@ -148,7 +148,7 @@ const Content = ({kamar}) => {
                 <div className="carousel-inner" role="listbox">
                   {kamar?.images?.map((url, idx) => (
                     <div key={idx} className={`carousel-item ${idx === 0 && 'active'}`}>
-                      <img className="img-fluid" src={url} alt="Room slide" />
+                      <img style={{ maxHeight: 430, width: '100%', objectFit: 'cover' }} className="img-fluid" src={url} alt="Room slide" />
                     </div>
                   ))}
                 </div>
