@@ -4,31 +4,39 @@
     "deskripsi": "Kamar Executive suite di dekorasi dengan gaya modern dan artistik, didalam kamar tersedia sofa santai, windows dan ruangan kerja yang luas sehingga anda bisa tetap produktif selama di dalam kamar. Semua furniture didesain unik dan terbuat dari bahan yang berkualitas.",
     "kapasitas": 2,
     "harga": 600000,
-    "images": ["/img/room/executive/1.jpg", "/img/room/executive/2.jpg", "/img/room/executive/3.jpg"],
-    "thumbnail": "img/room/room-exec-2.jpg"
+    "images": ["/img/room/executive/executive.jpg", "/img/room/executive/2.jpg", "/img/room/executive/3.jpg"],
+    "thumbnail": "/img/room/executive/executive.jpg"
   },
   "family": {
     "nama": "Family Suite",
     "deskripsi": "Kamar Family Suite merupakan kamar yang didesan khusus untuk sebuah keluarga dengan dekorasi yang menarik dan modern, ruangannya sangat luas dan didalamnya sudah tersedia satu bed besar dan satu bed kecil. Semua furniture didesain unik dan terbuat dari bahan yang berkualitas.",
     "kapasitas": 3,
     "harga": 550000,
-    "images": ["/img/room/family/1.jpg", "/img/room/family/2.jpg", "/img/room/family/3.jpg"],
-    "thumbnail": "img/room/family-suite.jpg"
+    "images": ["/img/room/family/family.jpg", "/img/room/family/2.jpg", "/img/room/family/3.jpg"],
+    "thumbnail": "/img/room/family/family.jpg"
+  },
+  "vipdeluxe": {
+    "nama": "VIP Deluxe Room",
+    "deskripsi": "Kamar Deluxe Room merupakan sebuah kamar yang didesain unik dan modern dengan ukuran kamar yang luas. Semua furniture didesain unik dan terbuat dari bahan yang berkualitas.",
+    "kapasitas": 2,
+    "harga": 500000,
+    "images": ["/img/room/vipdeluxe/vipdeluxe.jpg", "/img/room/vipdeluxe/2.jpg", "/img/room/vipdeluxe/3.jpg"],
+    "thumbnail": "/img/room/vipdeluxe/vipdeluxe.jpg"
   },
   "deluxe": {
     "nama": "Deluxe Room",
     "deskripsi": "Kamar Deluxe Room merupakan sebuah kamar yang didesain unik dan modern dengan ukuran kamar yang cukup luas. Semua furniture didesain unik dan terbuat dari bahan yang berkualitas.",
     "kapasitas": 2,
     "harga": 400000,
-    "images": ["/img/room/deluxe/1.jpg", "/img/room/deluxe/2.jpg", "/img/room/deluxe/3.jpg"],
-    "thumbnail": "img/room/deluxe-a.jpg"
+    "images": ["/img/room/deluxe/deluxe.jpg", "/img/room/deluxe/2.jpg", "/img/room/deluxe/deluxe-twin.jpg"],
+    "thumbnail": "/img/room/deluxe/deluxe.jpg"
   },
   "superior": {
     "nama": "Superior Room",
     "deskripsi": "Kamar Superior Room merupakan sebuah ruangan modern yang di desain dengan gaya minimalis dan juga terkesan elegan. Semua furniture didesain unik dan terbuat dari bahan yang berkualitas.",
     "kapasitas": 2,
     "harga": 350000,
-    "images": ["/img/room/superior/1.jpg", "/img/room/superior/2.jpg", "/img/room/superior/3.jpg"],
-    "thumbnail": "img/room/deluxe-b.jpg"
+    "images": ["/img/room/superior/superior.jpg", "/img/room/superior/2.jpg", "/img/room/superior/1.jpg"],
+    "thumbnail": "/img/room/superior/superior.jpg"
   }
 }

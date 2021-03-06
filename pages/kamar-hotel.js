@@ -42,7 +42,7 @@ const Content = () => {
             <div className="card wow fadeInUp">
               {/*Card image*/}
               <div className="view overlay hm-white-slight">
-                <img src={room.thumbnail} className="img-fluid" alt="executive-suite" />
+                <img style={{ width: '100%', height: 300, objectFit: 'cover', objectPosition: '50% 95%' }} src={room.thumbnail} className="img-fluid" alt="executive-suite" />
                 <Link href="/kamar/[kamarid]" as={`/kamar/${key}`}>
                   <div className="mask waves-light" />
                 </Link>
