@@ -56,7 +56,7 @@ const Content = () => {
             </section>
             {/*/Hotel columnn*/}
             {/*Resto columnn*/}
-            <section id="resto-short-desc">
+            {/* <section id="resto-short-desc">
               <div className="col-sm-6 pull-right nopadding text-center opa90 fill"><div className="card-block">
                   <h2 className="ontitle wow fadeInDown" data-wow-delay="0.2s">The Restaurant</h2>
                   <span className="figure-img">
@@ -66,7 +66,7 @@ const Content = () => {
                   <p>Selain itu kami juga menerima berbagai macam pesanan seperti katering, resepsi pernikahan, dan juga tersedia untuk acara-acara lainnya</p>
                   <a href="http://familyinnhotel.com/restoran">  <button type="button" className="btn innbtn">Selengkapnya</button></a>
                 </div></div>
-            </section>
+            </section> */}
             {/*/Resto columnn*/}
           </div>
           <div className="row">
